@@ -1,0 +1,86 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "B1OPUglG_fnPo--0WdVUI",
+      "type": "rectangle",
+      "x": 527.716796875,
+      "y": 2.75390625,
+      "width": 230.84765625000006,
+      "height": 273.02734375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1512923309,
+      "version": 660,
+      "versionNonce": 32843740,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "fMHaSQdXGvkIi5giEagth"
+        }
+      ],
+      "updated": 1744946926786,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "fMHaSQdXGvkIi5giEagth",
+      "type": "text",
+      "x": 544.140625,
+      "y": 76.767578125,
+      "width": 198,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0G",
+      "roundness": null,
+      "seed": 67755228,
+      "version": 161,
+      "versionNonce": 1362873436,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1744946926786,
+      "link": null,
+      "locked": false,
+      "text": "1.setup site\nnext js \ncss taiwind\n    shacdn UI\n1.1 use local font",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "B1OPUglG_fnPo--0WdVUI",
+      "originalText": "1.setup site\nnext js \ncss taiwind\n    shacdn UI\n1.1 use local font",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
