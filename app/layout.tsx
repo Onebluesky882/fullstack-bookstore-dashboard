@@ -13,10 +13,15 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={lato.variable}>
-      <body className="font-lato bg-[linear-gradient(170deg,_rgba(4,21,117,1)_0%,_rgba(2,11,61,1)_0%,_rgba(4,10,33,1)_10%,_rgba(0,0,0,1)_100%)] bg-no-repeat bg-cover bg-center min-h-screen w-full">
-        <Header />
-        {children}
+    <html lang="en">
+      <body
+        className={` overflow-x-hidden bg-[linear-gradient(170deg,_rgba(4,21,117,1)_0%,_rgba(2,11,61,1)_0%,_rgba(4,10,33,1)_10%,_rgba(0,0,0,1)_100%)] bg-no-repeat bg-cover bg-center min-h-screen w-full`}
+      >
+        {" "}
+        <header>
+          <Header />
+        </header>
+        <main className="">{children}</main>
       </body>
     </html>
   );

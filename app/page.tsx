@@ -1,12 +1,12 @@
 import BookList from "@/components/BookList";
 import BookOverview from "@/components/BookOverview";
-import Image from "next/image";
+import { sampleBooks } from "./constants";
 
 export default function Home() {
+  const bookPreview = sampleBooks[0];
   return (
     <div>
-      <BookOverview />
-      <BookList />
+      <BookOverview props={bookPreview} />
     </div>
   );
 }

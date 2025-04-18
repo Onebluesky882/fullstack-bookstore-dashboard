@@ -7,7 +7,7 @@ import { IoBook } from "react-icons/io5";
 const Header = () => {
   const pathname = usePathname();
   return (
-    <header className="flex  justify-center ">
+    <div className="flex  justify-center ">
       <ul className="flex w-full justify-between px-10 py-3 items-center">
         <li>
           <Link href={"/"}>
@@ -26,7 +26,7 @@ const Header = () => {
           </Link>
         </li>{" "}
       </ul>
-    </header>
+    </div>
   );
 };
 export default Header;
